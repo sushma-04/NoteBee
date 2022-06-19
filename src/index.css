@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('n.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: bottom;
+  background-size: 40%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i{
+  cursor: pointer;
+}
+
+body{
+  background-color:rgb(188, 138, 197);
+}
+
+.col{
+  background-color:rgb(188, 138, 197);
+  color: #1d0134;
+}
+
+h2{
+  color: #1d0134;
+}
+
+.card{
+  background-color: #f5f9c0;
+ 
+}
+
+
+.card :hover{
+  background-color: #fcfedd;
+}
+
+
+.modal-content{
+  background-color: rgb(188, 138, 197);
+  color: #1d0134;
+}
+
+.modal-header, .modal-footer{
+  background-color: #1d0134;
+  color: white;
+}
+
+.navbar{
+  background-color: rgb(188, 138, 197);
+  color: #1d0134;
+  text-decoration: none;
+
+}
+
